@@ -1,0 +1,91 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: orange;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: gray;
+}
+
+nav ul a li {
+    display: inline-block;
+    width: 7em;
+    text-align: center;
+    margin: 0 15px;
+    padding: 15px 15px;
+}
+
+#title {
+    text-align: center;
+}
+
+main {
+    margin: 1.5em;
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+#profile-wrapper {
+    flex-grow: 1;
+}
+
+#profile-content {
+    padding: 0.5em 1.5em;
+    background-color: greenyellow;
+    font-size: 1.5em;
+    border-radius: 1.5em;
+}
+
+#profile-link {
+    display: block;
+    height: 100%;
+    width: fit-content;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+#profile-link a {
+    /* width: 100%;
+    height: 100%; */
+    float: left;
+    padding: 10px;
+}
+
+#profile-link a img {
+    width: 50px;
+}
+
+#profile img {
+    /* 선택된 아이템을 왼쪽으로 */
+    float: left;
+    /* width: 100%; */
+}
+
+main p {
+    vertical-align: middle;
+}
